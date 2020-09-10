@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"unsafe"
 
+	corepb "github.com/EricLi404/tensorflow/tensorflow/go/core/protobuf/for_core_protos_go_proto"
 	"github.com/golang/protobuf/proto"
-	corepb "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/for_core_protos_go_proto"
 )
 
 // #include <stdlib.h>
